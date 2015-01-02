@@ -15,7 +15,7 @@ global_variable BITMAPINFO BitmapInfo;
 global_variable void *BitmapMemory;
 global_variable HBITMAP BitmapHandle;
 global_variable HDC BitmapDeviceContext;
-//
+// Testing
 internal void Win32ResizeDIBSection(int Width, int Height)
 {
 	if (BitmapHandle)
